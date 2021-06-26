@@ -1,0 +1,168 @@
+{
+	"@xmptk": "Adobe XMP Core 5.6-c148 79.163765, 2019/01/24-18:11:46",
+	"@rdfhash": "D08E747BCE3FF74E326B2D40838896F0",
+	"@merged": "0",
+	"RDF": {
+		"Description": {
+			"@about": "",
+			"@InstanceID": "xmp.iid:58cd4eb9-75d0-c64c-a5a0-f7bd1d62b88b",
+			"@DocumentID": "25784982-6b3c-29cd-69b8-8de90000004d",
+			"@OriginalDocumentID": "xmp.did:e56b782d-2650-ba43-be02-cd5a11b47bde",
+			"@MetadataDate": "2021-05-06T20:04:07+06:00",
+			"@ModifyDate": "2021-05-06T20:04:07+06:00",
+			"@CreatorTool": "Adobe Premiere Pro 2019.1 (Windows)",
+			"@CreateDate": "2021-05-06T20:03:23+06:00",
+			"@videoFrameRate": "29.970030",
+			"@videoFieldOrder": "Progressive",
+			"@videoPixelAspectRatio": "1/1",
+			"@audioSampleRate": "48000",
+			"@audioSampleType": "Compressed",
+			"@audioChannelType": "Stereo",
+			"@startTimeScale": "30000",
+			"@startTimeSampleSize": "1001",
+			"@format": "WebM",
+			"History": {
+				"Seq": {
+					"li": [
+						{
+							"@action": "saved",
+							"@instanceID": "542c84fa-6de9-dd6e-bf6d-a6f20000007a",
+							"@when": "2021-05-06T20:04:07+06:00",
+							"@softwareAgent": "Adobe Premiere Pro 2019.1 (Windows)",
+							"@changed": "/"
+						},
+						{
+							"@action": "created",
+							"@instanceID": "xmp.iid:38d8c7ac-c85e-a647-a1a2-f6a2ca99e93f",
+							"@when": "2021-05-06T20:03:46+06:00",
+							"@softwareAgent": "Adobe Premiere Pro 2019.1 (Windows)"
+						},
+						{
+							"@action": "saved",
+							"@instanceID": "xmp.iid:d6e70ae0-1a80-1041-8f96-b7517595071b",
+							"@when": "2021-05-06T20:04:07+06:00",
+							"@softwareAgent": "Adobe Premiere Pro 2019.1 (Windows)",
+							"@changed": "/"
+						},
+						{
+							"@action": "saved",
+							"@instanceID": "xmp.iid:58cd4eb9-75d0-c64c-a5a0-f7bd1d62b88b",
+							"@when": "2021-05-06T20:04:07+06:00",
+							"@softwareAgent": "Adobe Premiere Pro 2019.1 (Windows)",
+							"@changed": "/metadata"
+						}
+					]
+				}
+			},
+			"Ingredients": {
+				"Bag": {
+					"li": [
+						{
+							"@instanceID": "23773d2a-d825-16f9-367e-419400000082",
+							"@documentID": "ad0a56fb-ddb3-002a-8e4d-aa6000000055",
+							"@fromPart": "time:0d1101836736000f254016000000",
+							"@toPart": "time:0d1101836736000f254016000000",
+							"@filePath": "Jett Animation -1.m4v",
+							"@maskMarkers": "None"
+						},
+						{
+							"@instanceID": "be65d049-9ac2-085e-1998-00a700000078",
+							"@documentID": "7dc675a1-9e54-5d46-e08f-95780000004b",
+							"@fromPart": "time:0",
+							"@toPart": "time:0d1101836736000f254016000000",
+							"@filePath": "Jett_artwork.png",
+							"@maskMarkers": "None"
+						}
+					]
+				}
+			},
+			"Pantry": {
+				"Bag": {
+					"li": [
+						{
+							"Description": {
+								"@CreateDate": "2021-05-06T13:51:54Z",
+								"@ModifyDate": "2021-05-06T19:53:18+06:00",
+								"@MetadataDate": "2021-05-06T19:53:18+06:00",
+								"@releaseDate": "2020-04-15T06:28:42.308865",
+								"@Orientation": "1",
+								"@InstanceID": "23773d2a-d825-16f9-367e-419400000082",
+								"@DocumentID": "ad0a56fb-ddb3-002a-8e4d-aa6000000055",
+								"@OriginalDocumentID": "xmp.did:0806383e-6ce3-9946-87e4-4e071e0137e5",
+								"duration": {
+									"@value": "89076",
+									"@scale": "1/1000"
+								},
+								"History": {
+									"Seq": {
+										"li": {
+											"@action": "saved",
+											"@instanceID": "23773d2a-d825-16f9-367e-419400000082",
+											"@when": "2021-05-06T19:53:18+06:00",
+											"@softwareAgent": "Adobe Premiere Pro 2019.1 (Windows)",
+											"@changed": "/"
+										}
+									}
+								}
+							}
+						},
+						{
+							"Description": {
+								"@InstanceID": "be65d049-9ac2-085e-1998-00a700000078",
+								"@DocumentID": "7dc675a1-9e54-5d46-e08f-95780000004b",
+								"@OriginalDocumentID": "xmp.did:30855608-e896-0c4c-b483-9b05c4ef998e",
+								"@MetadataDate": "2021-05-06T19:51:18+06:00",
+								"@ModifyDate": "2021-05-06T19:51:18+06:00",
+								"History": {
+									"Seq": {
+										"li": {
+											"@action": "saved",
+											"@instanceID": "be65d049-9ac2-085e-1998-00a700000078",
+											"@when": "2021-05-06T19:51:18+06:00",
+											"@softwareAgent": "Adobe Premiere Pro 2019.1 (Windows)",
+											"@changed": "/"
+										}
+									}
+								}
+							}
+						}
+					]
+				}
+			},
+			"DerivedFrom": {
+				"@instanceID": "xmp.iid:38d8c7ac-c85e-a647-a1a2-f6a2ca99e93f",
+				"@documentID": "xmp.did:38d8c7ac-c85e-a647-a1a2-f6a2ca99e93f",
+				"@originalDocumentID": "xmp.did:38d8c7ac-c85e-a647-a1a2-f6a2ca99e93f"
+			},
+			"windowsAtom": {
+				"@extension": ".prproj",
+				"@invocationFlags": "/L",
+				"@uncProjectPath": "\\\\?\\C:\\Users\\aniki\\Documents\\Adobe\\Premiere Pro\\13.0\\Untitled.prproj"
+			},
+			"macAtom": {
+				"@applicationCode": "1347449455",
+				"@invocationAppleEvent": "1129468018"
+			},
+			"projectRef": {
+				"@type": "movie"
+			},
+			"videoFrameSize": {
+				"@w": "587",
+				"@h": "900",
+				"@unit": "pixel"
+			},
+			"duration": {
+				"@value": "130",
+				"@scale": "1001/30000"
+			},
+			"startTimecode": {
+				"@timeFormat": "2997DropTimecode",
+				"@timeValue": "00;00;00;00"
+			},
+			"altTimecode": {
+				"@timeValue": "00;00;00;00",
+				"@timeFormat": "2997DropTimecode"
+			}
+		}
+	}
+}
