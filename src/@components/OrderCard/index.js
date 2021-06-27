@@ -20,7 +20,6 @@ const useStyle = makeStyles((theme) => ({
 
 	details: {
 		marginBottom: "0",
-		marginLeft: "2.5rem",
 
 		"& a": {
 			textDecoration: "none",
@@ -34,10 +33,6 @@ const useStyle = makeStyles((theme) => ({
 
 		"& h4": {
 			textTransform: "uppercase",
-		},
-
-		"& div:last-child": {
-			marginLeft: "2.5rem",
 		},
 	},
 
@@ -56,7 +51,6 @@ const useStyle = makeStyles((theme) => ({
 			borderRadius: ".4rem",
 			padding: ".5rem",
 			minWidth: "2.5rem",
-			margin: "0 1rem",
 
 			"& span": {
 				fontSize: "1.5rem",
@@ -93,23 +87,30 @@ const OrderCard = ({ data, ...rest }) => {
 			<div>
 				<img src={`${data.img}`} alt="" />
 			</div>
-			<div className={`${classes.root} ${classes.details}`}>
-				<Box display="flex" alignItems="flex-start">
+			<Box flex="1" className={classes.details}>
+				<Box marginLeft="1rem">
 					<div>
 						<Typography variant="h3" component={RouterLink}>
-							{" "}
-							{data.productName}{" "}
+							{data.productName}
 						</Typography>
-						<Typography variant="body1"> {data.type} </Typography>
-						<Typography variant="h4">BDT {data.price} </Typography>
 					</div>
-					<div className={classes.root}>
-						<div className={classes.plusMinus}>
-							<Button>-</Button>
+					<Box
+						display="flex"
+						alignItems="center"
+						justifyContent="space-between"
+					>
+						<div>
+							<Typography variant="body1">{data.type}</Typography>
+							<Typography variant="h4">
+								BDT {data.price}{" "}
+							</Typography>
 						</div>
-					</div>
+						<div>
+							<Button>Retrive Code</Button>
+						</div>
+					</Box>
 				</Box>
-			</div>
+			</Box>
 		</div>
 	);
 };
