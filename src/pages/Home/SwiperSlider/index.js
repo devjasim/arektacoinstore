@@ -26,11 +26,15 @@ const useStyle = makeStyles((theme) => ({
 			marginTop: "-24vh",
 		},
 
-		"@media (max-height: 768px)": {
-			marginTop: "-4vh",
+		"@media (min-height: 769px)": {
+			marginTop: "-20vh",
 		},
 
-		"@media (max-height: 560px)": {
+		"@media (max-height: 768px)": {
+			marginTop: "-12vh",
+		},
+
+		"@media (max-height: 660px)": {
 			marginTop: "calc(100vh - 100vh)",
 		},
 

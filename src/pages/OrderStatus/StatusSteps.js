@@ -21,10 +21,9 @@ const useStyles = makeStyles((theme) => ({
 			},
 
 			"& .MuiStepConnector-alternativeLabel": {
-				top: "33%",
+				top: "2.15rem",
 				left: "calc(-50% + 40px)",
 				right: "calc(50% + 40px)",
-				transform: "translateY(-50%)",
 			},
 
 			"& .MuiStepConnector-active": {

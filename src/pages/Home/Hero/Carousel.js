@@ -17,7 +17,7 @@ const useStyle = makeStyles((theme) => ({
 	root: {
 		paddingBottom: "5rem",
 
-		"@media (maxHeight: 560px)": {
+		"@media (max-height: 560px)": {
 			marginTop: "calc(100vh - 100vh)",
 		},
 

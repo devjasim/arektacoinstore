@@ -1,5 +1,6 @@
 import { Box, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
+import YoutubeVideo from "./YoutubeVideo";
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -89,19 +90,7 @@ const LeftInfo = () => {
 					<Typography variant="h6">
 						PUBG Mobile Online Store for Unknowd Cash - PUBG UC
 					</Typography>
-					<Typography variant="body1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Minima fugit placeat facere veniam nisi earum dolorem
-						aliquam dolor praesentium magnam excepturi, deserunt
-						illo quis fuga ullam distinctio sint libero harum.
-					</Typography>
-					<Typography variant="body1">
-						Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit. Soluta accusamus, repellat nihil voluptatibus
-						tempore, fugiat repudiandae molestiae placeat aliquid
-						maxime recusandae perferendis tempora voluptates odio
-						quo neque exercitationem, quia sequi.
-					</Typography>
+					<YoutubeVideo embedId="rokGy0huYEA" />
 				</div>
 			</Box>
 		</div>

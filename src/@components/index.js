@@ -1,11 +1,14 @@
 export { default as ArrowButton } from "./ArrowButton";
 export { default as BorderInput } from "./BorderInput";
+export { default as CardTable } from "./CardTable";
+export { default as BorderTable } from "./CardTable/BorderTable";
 export { default as CategoryTag } from "./CategoryTag";
 export { default as CheckoutCard } from "./CheckoutCard";
 export { default as LoginFacebook } from "./LoginFacebook";
 export { default as LoginGoogle } from "./LoginGoogle";
 export { default as OrderCard } from "./OrderCard";
 export { default as ProductCard } from "./ProductCard";
+export { default as PurchacesCard } from "./PurchasesCard";
 export { default as Ratings } from "./Ratings";
 export { default as Reviews } from "./Reviews";
 export { default as SupportBox } from "./SupportBox";

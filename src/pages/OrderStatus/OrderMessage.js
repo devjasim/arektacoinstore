@@ -19,6 +19,13 @@ const useStyles = makeStyles((theme) => ({
 		padding: "12px 20px",
 		border: "none",
 		width: "100%",
+
+		"& input": {
+			fontSize: "1rem",
+			fontWeight: "400",
+			paddingLeft: ".8rem !important",
+			paddingRight: "6rem",
+		},
 	},
 	iconButton: {
 		padding: ".3rem 1rem",

@@ -121,7 +121,7 @@ const useStyle = makeStyles((theme) => ({
 			marginTop: "6rem",
 			display: "block",
 			width: "100%",
-			fontSize: "1.5rem",
+			fontSize: "1.2rem",
 			fontWeight: "400",
 			borderRadius: "2rem",
 

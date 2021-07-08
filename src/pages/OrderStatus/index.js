@@ -32,6 +32,22 @@ const useStyles = makeStyles((theme) => ({
 			borderRadius: "1.2rem",
 		},
 	},
+
+	boxCard: {
+		marginRight: "1rem",
+		padding: "2rem 2.5rem 1.5rem 2rem",
+		"@media (min-width: 1460px)": {
+			padding: "2rem 3.5rem 1.5rem 2.5rem",
+		},
+	},
+
+	boxCardTwo: {
+		marginLeft: "1rem",
+		padding: "2rem 2rem 1.5rem 1.5rem",
+		"@media (min-width: 1460px)": {
+			padding: "2rem 2.5rem 1.5rem 2rem",
+		},
+	},
 }));
 
 const OrderStatus = () => {
@@ -59,12 +75,12 @@ const OrderStatus = () => {
 				<Box className={classes.paperBox} marginTop="4rem">
 					<Grid container spacing={10}>
 						<Grid item xs={12} md={6}>
-							<Paper elevation={2}>
+							<Paper className={classes.boxCard} elevation={2}>
 								<OrderInfo />
 							</Paper>
 						</Grid>
 						<Grid item xs={12} md={6}>
-							<Paper elevation={2}>
+							<Paper className={classes.boxCardTwo} elevation={2}>
 								<OrderMessage />
 							</Paper>
 						</Grid>

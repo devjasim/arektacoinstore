@@ -29,8 +29,10 @@ export default createMuiTheme({
 			blue: blueColor,
 			discord: discordColor,
 			redColor: redColor,
-			grayColor: "#ddd",
+			grayColor: "#d2d2d2",
 			softGray: "#f1f1f1",
+			textGray: "#868686",
+			lightGray: "#e8e8e8",
 		},
 	},
 
@@ -164,7 +166,8 @@ export default createMuiTheme({
 				textTransform: "initial",
 
 				"&.MuiButton-text": {
-					padding: ".6rem 1.8rem",
+					padding: ".5rem 1.8rem",
+					transition: ".3s all ease-in-out",
 				},
 
 				"&.MuiButtonBase-root": {

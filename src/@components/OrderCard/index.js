@@ -29,10 +29,16 @@ const useStyle = makeStyles((theme) => ({
 
 		"& p": {
 			margin: ".5rem 0",
+			color: theme.palette.common.grayColor,
+			fontSize: "1rem",
+			fontWeight: "400",
+			marginBottom: ".2rem",
 		},
 
 		"& h4": {
-			textTransform: "uppercase",
+			color: theme.palette.common.grayColor,
+			fontSize: "1rem",
+			fontWeight: "400",
 		},
 	},
 
@@ -83,34 +89,44 @@ const OrderCard = ({ data, ...rest }) => {
 	console.log(data);
 
 	return (
-		<div className={classes.root}>
-			<div>
-				<img src={`${data.img}`} alt="" />
-			</div>
-			<Box flex="1" className={classes.details}>
-				<Box marginLeft="1rem">
-					<div>
-						<Typography variant="h3" component={RouterLink}>
-							{data.productName}
-						</Typography>
-					</div>
-					<Box
-						display="flex"
-						alignItems="center"
-						justifyContent="space-between"
-					>
+		<div>
+			<div className={classes.root}>
+				<div>
+					<img src={`${data.img}`} alt="" />
+				</div>
+				<Box flex="1" className={classes.details}>
+					<Box marginLeft="1.5rem">
 						<div>
-							<Typography variant="body1">{data.type}</Typography>
-							<Typography variant="h4">
-								BDT {data.price}{" "}
+							<Typography variant="h3" component={RouterLink}>
+								{data.productName}
 							</Typography>
 						</div>
-						<div>
-							<Button>Retrive Code</Button>
-						</div>
+						<Box
+							display="flex"
+							alignItems="center"
+							justifyContent="space-between"
+						>
+							<div>
+								<Typography variant="body1">
+									Quantity 1
+								</Typography>
+								<Typography variant="h4">
+									Price BDT {data.price}
+								</Typography>
+							</div>
+							<div>
+								<Button
+									color="primary"
+									variant="primary"
+									size="small"
+								>
+									Retrive Code
+								</Button>
+							</div>
+						</Box>
 					</Box>
 				</Box>
-			</Box>
+			</div>
 		</div>
 	);
 };

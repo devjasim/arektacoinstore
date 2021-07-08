@@ -8,6 +8,7 @@ import Home from "pages/Home";
 import Login from "pages/Login";
 import OrderStatus from "pages/OrderStatus";
 import Register from "pages/Register";
+import UserDashboard from "pages/UserDash";
 import React from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 import "./assets/sass/main.scss";
@@ -67,6 +68,10 @@ function App() {
 								<Route
 									path="/order-status"
 									component={OrderStatus}
+								/>
+								<Route
+									path="/user-dashboard"
+									component={UserDashboard}
 								/>
 							</motion.div>
 						</Switch>
